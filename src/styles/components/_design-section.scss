@@ -1,0 +1,13 @@
+.design-section {
+    height: $section-height;
+    background: $background-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    h1 {
+        font-size: $h1-size;
+        letter-spacing: $standard-letter-spacing;
+    }
+}
