@@ -2,6 +2,7 @@
     height: $section-height;
     background: $background-color;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     
@@ -10,4 +11,5 @@
         font-size: $h1-size;
         letter-spacing: $standard-letter-spacing;
     }
+
 }

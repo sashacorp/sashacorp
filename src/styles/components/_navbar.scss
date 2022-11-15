@@ -1,10 +1,38 @@
 .navbar {
+   padding: 1rem;
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        li {
+            list-style: none;
+        }
+        
+        
+    }
+
 
     a {
         text-decoration: none;
+        color: white;    
+        padding: 1rem;
     }
+
+    a:hover {
+        color: black;
+        background-color: $h1-color;
+        opacity: 40%;
+    }
+  
     h2 {
-        color: white;
+        padding: 0;
+        margin: 0;
         font-weight: 100;
+        font-size: $h2-size;
     }
+
+   
+
+    
 }
