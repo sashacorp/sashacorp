@@ -1,11 +1,4 @@
 .design-section {
-    height: $section-height;
-    background: $background-color;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
     
     @media screen and (min-width:601px) {
         h1 {
@@ -17,7 +10,35 @@
     @media screen and (max-width:600px) {
         h1 {
             font-size: 30px;
+            background: $background-color;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
         }
     }
 
+    
+
+}
+
+@media screen and (min-width:601px) {
+     div.design-section {
+       background: $background-color;
+       height: $section-height;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+     }
+}
+
+@media screen and (max-width:600px) {
+    div.design-section {
+      background: $h1-color;
+      height: $section-height;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 }
