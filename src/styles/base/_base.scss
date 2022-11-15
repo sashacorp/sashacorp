@@ -17,6 +17,7 @@
     body {
     
         background: $background-color;
+        width: 100%;
     }
 }
 
@@ -35,5 +36,6 @@ h1 {
 @media screen and (max-width:600px) {
     main {
         background-color: $h1-color;
+        width: 100%;
     }
 }

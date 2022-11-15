@@ -57,8 +57,12 @@
 
 @media screen and (max-width:600px) {
    div.navbar{
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-left: 3px;
+    padding-bottom: 1rem;
+    padding-right: 3px;
     background: $background-color;
+    width: 100vh;
     ul {
         display: flex;
         flex-direction: row;

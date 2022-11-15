@@ -9,7 +9,7 @@
 
     @media screen and (max-width:600px) {
         h1 {
-            font-size: 30px;
+            font-size: 40px;
             background: $background-color;
             background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -34,11 +34,12 @@
 
 @media screen and (max-width:600px) {
     div.design-section {
+      padding-top: 4rem;
       background: $h1-color;
       height: $section-height;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content:left;
       align-items: center;
     }
 }
