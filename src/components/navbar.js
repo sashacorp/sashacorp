@@ -6,7 +6,7 @@ import {Link} from 'gatsby'
 
 const NavBar = () => {
     return (
-      <Container className="navbar">
+      <nav className="navbar">
         <Row>
           <ul>
             <li><h2><Link to="/">Home</Link></h2></li>
@@ -16,7 +16,7 @@ const NavBar = () => {
             <li><h2><Link to="/aboutus">About&nbsp;Us</Link></h2></li>
           </ul>
         </Row>
-      </Container>
+      </nav>
     )
 }
 
