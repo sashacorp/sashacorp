@@ -58,7 +58,9 @@
 
 @media screen and (max-width:600px) {
    nav.navbar{
-    padding: 2rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background: $background-color;
     width: 100%;
     ul {
@@ -78,7 +80,6 @@
         text-decoration: none;
         color: white;    
         padding: 1rem;
-        font-size: 1.1rem;
     }
 
     a:hover {
