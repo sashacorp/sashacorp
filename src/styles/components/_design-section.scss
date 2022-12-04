@@ -6,20 +6,14 @@
         .design-section {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
 
             padding: 10% 10% 0% 3%;
             height: $section-height;
             width: 90rem;
             background: $background-color;
             
-            
-
-            img {
-                
-                height: 30rem;
-                width: auto;
-            }
 
             h1 {
                 font-size: 7rem;
@@ -30,7 +24,7 @@
             h2 {
                 font-size: 3rem;
                 letter-spacing: $standard-letter-spacing;
-                color: $h1-color;
+                color: $h2-orange;
                 
             }
           }
@@ -62,8 +56,5 @@
         }
     }
 
-    img {
-        height: 20rem;
-        width: auto;
-    }
+
 }

@@ -1,16 +1,12 @@
 import * as React from 'react'
-import Landing from '../images/landingsashacorp3.png'
 
 const DesignSection = () => {
   return (
     <div className="design-section">
         <div className="title">
           <h1>SashaCorp</h1>
-        </div>
-           
-           <img src={Landing} alt="design"></img>
-           
-        
+          <h2>We build amazing web experiences</h2>
+        </div> 
     </div>
   )
 }

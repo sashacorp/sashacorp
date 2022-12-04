@@ -1,8 +1,7 @@
 * {
-    box-sizing: border-box;
+   
     font-family: 'Roboto', sans-serif,
 }
-
 
 
 // DESKTOP
@@ -15,7 +14,8 @@
     }
 
     body {
-    
+        margin: 0rem;
+        padding: 0rem;
         background: $background-color;
         width: 90rem;
     }
@@ -26,12 +26,15 @@
 @media screen and (max-width:600px) {
     main {
         background-color: $h1-color;
-        width: 100%;
+        width: 30rem;
     }
 
     
     body {
+        margin: 0rem;
+        padding: 0rem;
         background-color: $h1-color;
+        width: 30rem;
     }
 }
 
