@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 const ProBono = () => {
     return (
-      <Layout>
+      <Layout pageTitle="Pro Bono">
          
       </Layout>
         

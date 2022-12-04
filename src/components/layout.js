@@ -1,13 +1,11 @@
 import * as React from 'react'
-import { Row } from 'react-grid-system';
 import NavBar from './navbar';
 
-const Layout = ({children}) => {
+const Layout = ({children, pageTitle, subTitle}) => {
     return (
         <main>
-           <Row>
-              <NavBar/>
-           </Row>
+            <NavBar/>
+            <h1>{pageTitle}</h1>
             {children}
         </main>
     )

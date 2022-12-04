@@ -3,9 +3,8 @@ import * as React from 'react'
 const DesignSection = () => {
   return (
     <div className="design-section">
-        <div className="title">
-          <h1>SashaCorp</h1>
-          <h2>We build amazing web experiences</h2>
+        <div className="sub-title">
+         <h2>We Build Wholesome Web Experiences</h2>
         </div> 
     </div>
   )

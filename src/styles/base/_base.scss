@@ -1,43 +1,11 @@
+
+
 * {
-   
-    font-family: 'Roboto', sans-serif,
-}
-
-
-// DESKTOP
-
-@media screen and (min-width:601px) {
-
-    main {
-        background: $background-color;
-        width: 90rem;
-    }
-
-    body {
-        margin: 0rem;
-        padding: 0rem;
-        background: $background-color;
-        width: 90rem;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    a, a:hover, a:link {
+        text-decoration: none;
+        color: black;
     }
 }
-
-// MOBILE
-
-@media screen and (max-width:600px) {
-    main {
-        background-color: $h1-color;
-        width: 30rem;
-    }
-
-    
-    body {
-        margin: 0rem;
-        padding: 0rem;
-        background-color: $h1-color;
-        width: 30rem;
-    }
-}
-
-
-
-

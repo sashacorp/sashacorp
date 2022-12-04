@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 const Pricing = () => {
     return (
-      <Layout>
+      <Layout pageTitle="Pricing">
          
       </Layout>
         

@@ -1,114 +1,21 @@
-
-// DESKTOP 
-
-    @media screen and (min-width:601px) {
-        .navbar {
-            margin: 0px;
-            position: fixed;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            vertical-align: middle;
-            width: 90rem;
-            background-color: $background-color;
-            border-bottom: 1px solid $h1-color;
-            opacity: 70%;
-            padding: 0rem 0rem 0rem 5rem;
-
-            ul {
-                padding-top: 1rem;
-                display: flex;
-                flex-direction: row;
-                justify-content: end;
-                li {
-                    list-style: none;
-                }
-                
-                
-            }
-        
-        
-            a {
-                text-decoration: none;
-                color: white;    
-                padding: 1rem;
-            }
-        
-            a:hover {
-                color: black;
-                background-color: $h1-color;
-                opacity: 40%;
-            }
-
-            h2 {
-                font-size: 0.9rem;
-                letter-spacing: $standard-letter-spacing;
-                font-weight: 300;
-                padding: 0;
-                margin: 0;
-            }
-
-            img {
-                height: 5rem;
-                width: auto;
-            }
-            img:hover {
-                opacity: 100%;
-            }
-        }
-       
-    }
-
-
-
-    
-// MOBILE
-
-
-@media screen and (max-width:600px) {
-   nav.navbar{
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background: $background-color;
-    width: 30rem;
-    padding: 0.4rem 0rem 0rem 5rem;
-
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        li {
-            list-style: none;
-        }
-        
-        
-    }
-
-
-    a {
-        text-decoration: none;
-        color: white;    
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   .logo {
+     img {
+        height: 5rem;
+        width: auto;
+     }
+   }
+   ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    li {
+        list-style-type: none;
         padding: 1rem;
     }
-
-    a:hover {
-        color: black;
-        background-color: $h1-color;
-        opacity: 40%;
-    }
-
-    h2 {
-        font-size: 10px;
-        padding: 0;
-        margin: 0;
-        font-weight: 300;
-    }
-   }
-
-   img {
-    width: 40px;
-    height: auto;
    }
 }
+
