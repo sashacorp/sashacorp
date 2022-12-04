@@ -1,5 +1,14 @@
 main {
+    width: 100%;
     h1 {
         padding: $padding;
+        font-size: 7rem;
+        font-weight: 500;
+        background: $background-color;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .section {
+        height: 100vh;
     }
 }

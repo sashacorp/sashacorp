@@ -1,0 +1,33 @@
+.footer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: $background-color;
+    padding-top: 5%;
+    
+       .logo-footer {
+        padding: 0% 10% 0% 0%;
+        img {
+            height: 35rem;
+            width: auto;
+             
+        }
+       }
+        
+       .powered-by {
+        padding: 0% 0% 0% 10%;  
+        h2 {
+            color: white;
+            font-size: 1.1rem;  
+        }
+        a {
+            color: $h2-pink;
+            font-size: 1.2rem;
+            
+        }
+       }
+        
+    
+}
