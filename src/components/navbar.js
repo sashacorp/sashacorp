@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Container, Row } from 'react-grid-system';
+import { Row } from 'react-grid-system';
 import {Link} from 'gatsby'
 
 

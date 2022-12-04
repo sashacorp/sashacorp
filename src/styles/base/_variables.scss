@@ -2,10 +2,13 @@ $background-color-start: rgb(133,10,10);
 $background-color: linear-gradient(90deg, rgba(133,10,10,1) 3%, rgba(46,1,126,1) 86%);
 $background-color-end: #2e017e;
 
+$second-gradient: linear-gradient(90deg, rgba(113,10,10,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
 $section-height: 100vh;
 
 $h1-color: #f0def4;
 $h1-size: 7rem;
 $h2-size: 1rem;
+$h2-min: 0.6rem;
 
 $standard-letter-spacing: 0.2ch;

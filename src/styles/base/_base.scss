@@ -1,41 +1,40 @@
 * {
-    padding: 0rem;
-    margin: 0rem;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif,
 }
 
 
 
-@media screen and (max-width:600px) {
-    body {
-        background-color: $h1-color;
-    }
-}
+// DESKTOP
 
 @media screen and (min-width:601px) {
+
+    main {
+        background: $background-color;
+        width: 90rem;
+    }
+
     body {
     
         background: $background-color;
-        width: 100%;
+        width: 90rem;
     }
 }
 
-h1 {
-    color: $h1-color
-}
-
-
-
-@media screen and (min-width:601px) {
-    main {
-        background: $background-color;
-    }
-}
+// MOBILE
 
 @media screen and (max-width:600px) {
     main {
         background-color: $h1-color;
         width: 100%;
     }
+
+    
+    body {
+        background-color: $h1-color;
+    }
 }
+
+
+
+

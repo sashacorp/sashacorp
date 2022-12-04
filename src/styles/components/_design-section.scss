@@ -1,36 +1,45 @@
-.design-section {
-    
+
+    // DESKTOP 
+
+
     @media screen and (min-width:601px) {
-        h1 {
-            font-size: $h1-size;
-            letter-spacing: $standard-letter-spacing;
-        }
-    }
+        .design-section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
 
-    @media screen and (max-width:600px) {
-        h1 {
-            font-size: 3rem;
+            padding: 10% 10% 0% 3%;
+            height: $section-height;
+            width: 90rem;
             background: $background-color;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
             
-        }
+            
+
+            img {
+                
+                height: 30rem;
+                width: auto;
+            }
+
+            h1 {
+                font-size: 7rem;
+                letter-spacing: $standard-letter-spacing;
+                color: $h1-color;
+            }
+
+            h2 {
+                font-size: 3rem;
+                letter-spacing: $standard-letter-spacing;
+                color: $h1-color;
+                
+            }
+          }
+        
     }
 
-    
+   
 
-}
-
-@media screen and (min-width:601px) {
-     div.design-section {
-       background: $background-color;
-       height: $section-height;
-       display: flex;
-       flex-direction: row;
-       justify-content: center;
-       align-items: center;
-     }
-}
+// MOBILE
 
 @media screen and (max-width:600px) {
     div.design-section {
@@ -42,5 +51,19 @@
       justify-content:left;
       align-items: center;
       width: 100%
+     
+    }
+
+    div.title {
+        h1 {
+            font-size: 3rem;
+            background: $background-color;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        img {
+            height: 5rem;
+            width: auto;
+        }
     }
 }

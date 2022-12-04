@@ -1,9 +1,16 @@
 import * as React from 'react'
+import Landing from '../images/landingsashacorp3.png'
 
 const DesignSection = () => {
   return (
     <div className="design-section">
-        <h1>SASHACORP</h1>
+        <div className="title">
+          <h1>SashaCorp</h1>
+        </div>
+           
+           <img src={Landing} alt="design"></img>
+           
+        
     </div>
   )
 }
