@@ -5,12 +5,15 @@
     width: 100%;
     background: $background-color;
    .logo {
-    padding: 1rem 0rem 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0rem 0rem 2rem;
+    opacity: 70%;
      img {
-        height: 5rem;
-        width: auto;
-        
+        height: 4rem;
+        width: auto; 
      }
+
    }
    ul {
     display: flex;
@@ -18,11 +21,18 @@
     justify-content: left;
     li {
         list-style-type: none;
-        padding: 1rem 1rem 0rem 1rem;
+        padding: 0rem 1rem 0rem 1rem;
        h3 {
         font-size: 0.9rem;
         a {
           color: white;
+          opacity: 70%;
+          padding: 0.5rem;
+          border-radius: 3%;
+        }
+        a:hover {
+         opacity: 100%;
+         background-color: rgba(255, 172, 199, 10%);
         }
        }
         
@@ -30,3 +40,12 @@
    }
 }
 
+@media screen and (max-width: 700px) {
+   .navbar {
+      .logo {
+         img {
+            height: 3rem;
+         }
+      }
+   }
+}
