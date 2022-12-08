@@ -4,9 +4,9 @@
   </a>
 </p>
 <h1 align="center">
-  SashaCorp
+  SashaCorp 🐱 Wholesom Web Experiences 
 </h1>
 
-## 🐱 Wholesom Web Experiences 
+
 
 
