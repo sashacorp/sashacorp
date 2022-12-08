@@ -9,7 +9,7 @@
 </h1>
 
 <h1 align="center">
- 🐱 Wholesome Web Experiences 
+  Wholesome Web Experiences 
 </h1>
 
 
