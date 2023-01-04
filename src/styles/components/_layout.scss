@@ -4,7 +4,11 @@ main {
         padding: $padding;
         font-size: 7rem;
         font-weight: 500;
-        background: linear-gradient(90deg, rgba(38,49,89,1) 0%, rgba(151,199,255,1) 100%);
+        background: rgb(79,69,255);
+        background: -moz-linear-gradient(127deg, rgba(79,69,255,1) 24%, rgba(180,149,231,1) 24%, rgba(79,69,255,1) 56%, rgba(180,149,231,1) 56%);
+        background: -webkit-linear-gradient(127deg, rgba(79,69,255,1) 24%, rgba(180,149,231,1) 24%, rgba(79,69,255,1) 56%, rgba(180,149,231,1) 56%);
+        background: repeating-linear-gradient(127deg, rgba(79,69,255,1) 24%, rgba(180,149,231,1) 24%, rgba(79,69,255,1) 56%, rgba(180,149,231,1) 56%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4f45ff",endColorstr="#b495e7",GradientType=1);
         background-clip: text;
         -webkit-text-fill-color: transparent;
         text-transform: uppercase;

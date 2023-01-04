@@ -3,7 +3,11 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    background: $background-color;
+    background: rgb(180,149,231);
+    background: -moz-linear-gradient(194deg, rgba(180,149,231,1) 7%, rgba(79,69,255,1) 28%, rgba(117,99,246,1) 28%, rgba(98,84,251,1) 51%, rgba(110,93,248,1) 65%, rgba(79,69,255,1) 65%);
+    background: -webkit-linear-gradient(194deg, rgba(180,149,231,1) 7%, rgba(79,69,255,1) 28%, rgba(117,99,246,1) 28%, rgba(98,84,251,1) 51%, rgba(110,93,248,1) 65%, rgba(79,69,255,1) 65%);
+    background: linear-gradient(194deg, rgba(180,149,231,1) 7%, rgba(79,69,255,1) 28%, rgba(117,99,246,1) 28%, rgba(98,84,251,1) 51%, rgba(110,93,248,1) 65%, rgba(79,69,255,1) 65%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b495e7",endColorstr="#4f45ff",GradientType=1);
    .logo {
     display: flex;
     flex-direction: row;
